@@ -9,7 +9,7 @@ public class Pet extends BaseEntity {
     private Long id;
 
     @Override
-    public Long getId() {
+    public Long getId() { // needed to add these
         return id;
     }
 
