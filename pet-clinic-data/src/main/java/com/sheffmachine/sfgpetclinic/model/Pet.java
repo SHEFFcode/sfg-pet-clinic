@@ -6,6 +6,17 @@ public class Pet extends BaseEntity {
     private PetType petType;
     private Owner owner;
     private LocalDate birthDate;
+    private Long id;
+
+    @Override
+    public Long getId() { // needed to add these
+        return id;
+    }
+
+    @Override
+    public void setId(Long id) {
+        this.id = id;
+    }
 
     public PetType getPetType() {
         return petType;
