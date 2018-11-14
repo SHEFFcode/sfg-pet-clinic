@@ -15,7 +15,7 @@
         </tr>
         </thead>
         <tbody>
-        <!--/*@thymesVar id="owners" type="com.sheffmachine.sfgpetclinic.model.Vet"*/-->
+        <!--/*@thymesVar id="owners" type="com.sheffmachine.sfgpetclinic.model.Vet" */-->
         <tr th:each="vet : ${vets}">
             <td th:text="${vet?.id}">1</td>
             <td th:text="${vet?.firstName}">Joe</td>
