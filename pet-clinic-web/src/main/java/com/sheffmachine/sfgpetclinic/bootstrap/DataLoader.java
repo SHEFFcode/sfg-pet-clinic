@@ -1,5 +1,4 @@
 package com.sheffmachine.sfgpetclinic.bootstrap;
-
 import com.sheffmachine.sfgpetclinic.model.Owner;
 import com.sheffmachine.sfgpetclinic.model.Vet;
 import com.sheffmachine.sfgpetclinic.services.OwnerService;

@@ -1,5 +1,14 @@
 com/sheffmachine/sfgpetclinic/model/Vet.class
 com/sheffmachine/sfgpetclinic/model/PetType.class
-com/sheffmachine/sfgpetclinic/model/Person.class
-com/sheffmachine/sfgpetclinic/model/Pet.class
+com/sheffmachine/sfgpetclinic/services/map/OwnerServiceMap.class
 com/sheffmachine/sfgpetclinic/model/Owner.class
+com/sheffmachine/sfgpetclinic/services/CrudService.class
+com/sheffmachine/sfgpetclinic/model/Pet.class
+com/sheffmachine/sfgpetclinic/services/VetService.class
+com/sheffmachine/sfgpetclinic/services/map/VetServiceMap.class
+com/sheffmachine/sfgpetclinic/services/map/PetServiceMap.class
+com/sheffmachine/sfgpetclinic/model/Person.class
+com/sheffmachine/sfgpetclinic/services/PetService.class
+com/sheffmachine/sfgpetclinic/services/OwnerService.class
+com/sheffmachine/sfgpetclinic/services/map/AbstractMapService.class
+com/sheffmachine/sfgpetclinic/model/BaseEntity.class

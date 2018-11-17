@@ -1,1 +1,5 @@
+com/sheffmachine/sfgpetclinic/controllers/IndexController.class
+com/sheffmachine/sfgpetclinic/bootstrap/DataLoader.class
+com/sheffmachine/sfgpetclinic/controllers/VetController.class
+com/sheffmachine/sfgpetclinic/controllers/OwnersController.class
 com/sheffmachine/sfgpetclinic/SfgPetClinicApplication.class
