@@ -1,5 +1,14 @@
-/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/Owner.java
 /Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/PetType.java
-/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/Person.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/VetService.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/map/OwnerServiceMap.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/OwnerService.java
 /Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/Vet.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/map/VetServiceMap.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/map/PetServiceMap.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/CrudService.java
 /Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/Pet.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/BaseEntity.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/map/AbstractMapService.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/Owner.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/model/Person.java
+/Users/sheffmachine/Projects/spring/springCourse/sfg-pet-clinic/pet-clinic-data/src/main/java/com/sheffmachine/sfgpetclinic/services/PetService.java
