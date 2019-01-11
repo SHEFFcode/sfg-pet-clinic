@@ -40,7 +40,7 @@ public class PetSDJPAService implements PetService {
         petRepository.delete(object);
     }
 
-    @java.lang.Override
+    @Override
     public void deleteById(Long aLong) {
         petRepository.deleteById(aLong);
     }
