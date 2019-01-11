@@ -3,10 +3,14 @@ package com.sheffmachine.sfgpetclinic.springdatajpa;
 import com.sheffmachine.sfgpetclinic.model.PetType;
 import com.sheffmachine.sfgpetclinic.repositories.PetTypeRepository;
 import com.sheffmachine.sfgpetclinic.services.PetTypeService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Service
+@Profile("springdatajpa")
 public class PetTypeJPAService implements PetTypeService {
     private final PetTypeRepository petTypeRepository;
 
@@ -28,7 +32,7 @@ public class PetTypeJPAService implements PetTypeService {
     public Set<PetType> findAll() {
         Set<PetType> petTypes = new HashSet<>();
         petTypeRepository.findAll().forEach(petTypes::add);
-        return null;
+        return petTypes;
     }
 
     @Override
