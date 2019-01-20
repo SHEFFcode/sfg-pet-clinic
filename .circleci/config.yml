@@ -26,20 +26,20 @@ jobs:
       # Download and cache dependencies
       - restore_cache:
           keys:
-            - v1-dependencies-{{ checksum "pom.xml" }}
+            - v1-dependencies-{‌{ checksum "pom.xml" }}
             # fallback to using the latest cache if no exact match is found
             - v1-dependencies-
 
-      - run: mvn package -DskipTests=true
-      - run: mvn compile -DskipTests
-      - run: mvn dependency:go-offline -DexcludeArtifactIds:pet-clinic-data
+      # This is necessary to make petclinic-data-XXX.jar "visible" to petclinic-web
+      # From: http://maven.40175.n5.nabble.com/Re-dependency-go-offline-broken-tp5914643p5915059.html
+      - run: mvn install -DskipTests=true
 
+      - run: mvn dependency:go-offline -DexcludeArtifactIds:petclinic-data
 
       - save_cache:
           paths:
             - ~/.m2
-          key: v1-dependencies-{{ checksum "pom.xml" }}
+          key: v1-dependencies-{‌{ checksum "pom.xml" }}
 
       # run tests!
       - run: mvn integration-test
-
