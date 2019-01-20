@@ -31,7 +31,7 @@ jobs:
             - v1-dependencies-
 
       - run: mvn compile -DskipTests
-      - run: mvn dependency:go-offline -DexcludeArtifactIds:petclinic-data
+      - run: mvn dependency:go-offline -DexcludeArtifactIds:pet-clinic-data
 
 
       - save_cache:
