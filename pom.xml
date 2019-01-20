@@ -6,8 +6,8 @@
     <artifactId>sfg-pet-clinic</artifactId>
     <version>0.0.3-SNAPSHOT</version>
     <modules>
-        <module>pet-clinic-data</module>
         <module>pet-clinic-web</module>
+        <module>pet-clinic-data</module>
     </modules>
     <packaging>pom</packaging>
 
