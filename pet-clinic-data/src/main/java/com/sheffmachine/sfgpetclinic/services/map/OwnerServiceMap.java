@@ -5,6 +5,7 @@ import com.sheffmachine.sfgpetclinic.model.Pet;
 import com.sheffmachine.sfgpetclinic.services.OwnerService;
 import com.sheffmachine.sfgpetclinic.services.PetService;
 import com.sheffmachine.sfgpetclinic.services.PetTypeService;
+import com.sun.tools.javac.util.List;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
@@ -71,5 +72,11 @@ public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements 
         return this.findAll().stream().filter(owner -> {
             return owner.getLastName().equalsIgnoreCase(lastName);
         }).findFirst().orElse(null);
+    }
+
+    @Override
+    public List<Owner> findAllByLastNameLike(String lastName) {
+        //TODO: Imeplement
+        return null;
     }
 }
