@@ -5,10 +5,10 @@ import com.sheffmachine.sfgpetclinic.model.Pet;
 import com.sheffmachine.sfgpetclinic.services.OwnerService;
 import com.sheffmachine.sfgpetclinic.services.PetService;
 import com.sheffmachine.sfgpetclinic.services.PetTypeService;
-import com.sun.tools.javac.util.List;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Set;
 
 @Service
