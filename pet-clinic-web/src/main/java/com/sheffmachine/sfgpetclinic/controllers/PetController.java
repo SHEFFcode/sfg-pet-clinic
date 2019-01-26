@@ -30,11 +30,6 @@ public class PetController {
         this.petTypeService = petTypeService;
     }
 
-    @ModelAttribute("types")
-    public Collection<PetType> populatePetTypes() {
-        return petTypeService.findAll();
-    }
-
     @ModelAttribute("owner")
     public Owner findOwner(@PathVariable("ownerId") Long ownerId) {
         return ownerService.findById(ownerId);
@@ -47,9 +42,11 @@ public class PetController {
 
     @GetMapping("/pets/new")
     public String initCreationForm(Owner owner, Model model) {
-        Pet pet = new Pet();
+        Pet pet = Pet.builder().id(1L).owner(Owner.builder().id(1L).firstName("Josh").lastName("Topolsky").build())
+                .petType(new PetType(1L, "Dog")).build();
         owner.getPets().add(pet);
         model.addAttribute("pet", pet);
+        model.addAttribute("types", petTypeService.findAll());
         return VIEWS_PETS_CREATE_OR_UPDATE_FORM;
     }
 
